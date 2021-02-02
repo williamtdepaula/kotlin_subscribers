@@ -13,7 +13,8 @@ class subscriberFragment : Fragment() {
     private lateinit var viewModel: SubscriberViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.subscriber_fragment, container, false)

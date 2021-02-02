@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/main_graph">
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main_graph"
+            app:startDestination="@id/subscriberFragment2">
 
+    <fragment android:id="@+id/subscriberFragment2"
+              android:name="com.example.subscribers.ui.subscriber.subscriberFragment"
+              android:label="@string/subscriber_title" tools:layout="@layout/subscriber_fragment"/>
 </navigation>
